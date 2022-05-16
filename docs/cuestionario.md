@@ -19,12 +19,28 @@
 > Son pequeñas pruebas automatizadas realizadas por un software para este propósito, las cuales implican evaluar componentes pequeños y/o puntuales de una aplicación. Son utilizadas para probar el nivel del código e intentar localizar errores en sus funciones, métodos y rutinas.
 
 **6. ¿Cuál fue el 1er framework de pruebas unitarias y para cual lenguaje fue creado?**
+> El primer framework de pruebas unitarias es JUnit, creado para Java en 1997.
 
 **7. Describa los componentes de la arquitectura xUnit.**
+> * **Ejecutor de pruebas/Test runner**. Es un programa ejecutable que corre las pruebas implementadas utilizando un framework de xUnit y reportando los resultados de dichas pruebas.
+> * **Casos de prueba/Test case**. Es la clase más esencial de la arquitectura xUnit; todsa las pruebas unitarias son heredadas a partir de esta.
+> * **Banco de pruebas/Test fixtures**. Es la serie de precondiciones o estados que necesita ejecutar una prueba. El desarrollador debería configurar un buen estado conocido previo a las pruebas, y, regresar al estado original tras las pruebas.
+> * **Paquete de pruebas/Test suites**. Es un conjunto de pruebas que comparten el mismo banco de pruebas, en consecuencia, el orden de estas pruebas no debería importar.
+> * **Ejecución de la prueba/Test execution**. Es la ejecución de una prueba unitaria, que contiene dos métodos utilizados para inicializar y limpiar los bancos de pruebas tras las pruebas: setup() y teardown().
+> * **Formateador de resultados de pruebas/Test result formatter**. El ejecutor de la prueba produce resultados en uno o más formatos. Regularmente, existe un formateador de resultados, cuyo propósito es producir una salida en el formato XML.
 
 **8. Indique al menos tres desventajas de las pruebas unitarias automatizadas.**
+> * Son mucho más costosas que las pruebas manuales.
+> * Se torna agobiante decidir quién automatizará y quién formalizará las pruebas.
+> * Está limitado a algunas organizaciones, pues, muchas prefieren prescindir de la automatización de pruebas.
+> * Las pruebas automatizadas requieren personas con habilidades y formación para llevarlas a cabo.
+> * Las pruebas automatizadas solo eliminan la labor "mecánica" de ejecutar el proceso de pruebas, pero, la creación de casos de pruebas aún requiere de profesionales en pruebas.
 
 **9. Indique al menos tres ventajas de las pruebas unitarias automatizadas.**
->
+> * **Costo más bajo**. A pesar de que implican un costo inicial superior, la automatización de pruebas unitarias permite ahorrar costos de mantenimiento frente a las pruebas manuales.
+> * **Seguridad de la información**. En ocassiones, cuando el proyecto no es automatizado, los encargados de pruebas pueden no dedicar todo el tiempo que requiere el proceso de pruebas, provocando que código defectuoso pase a producción. Las pruebas automatizadas brindan un sistema más denso de seguridad a través de controles continuos para este propósito, superando el potencial inconveniente mencionado previamente con relación a las pruebas manuales.
+> * **Retroalimentación más rápida**. Dada su mayor eficiencia y rapidez, estas pruebas ofrecen resultados más rápidos a los interesados del proyecto, como clientes, usuarios y equipo de desarrollo. Por tanto, los errores pueden ser localizados y corregidos con mayor rapidez.
+> * **Mayor motivación del equipo**. A razón de su eficiencia, el equipo de desarrollo tiene una respuesta más rápida, evitando que sus miembros se desmotiven y sientan insatisfacción, ambas sensaciones generadas a razón de la espera tardía de una retroalimentación.
+> * **Aserción/assertion**. Es una función macro que verifica el comportamiento o estado de la unidad que está bajo prueba. Por lo general, las aserciones expresan la condición lógica que es verdadera para los resultados esperados en un sistema bajo prueba ejecutado correctamente.
 
 # Referencias bibliográficas
