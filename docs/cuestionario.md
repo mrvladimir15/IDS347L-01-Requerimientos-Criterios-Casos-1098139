@@ -44,3 +44,11 @@
 > * **Aserción/assertion**. Es una función macro que verifica el comportamiento o estado de la unidad que está bajo prueba. Por lo general, las aserciones expresan la condición lógica que es verdadera para los resultados esperados en un sistema bajo prueba ejecutado correctamente.
 
 # Referencias bibliográficas
+* Briceño, G. (2020, 30 marzo). Pruebas Automatizadas: tipos y conceptos erróneos. Club de Tecnología. https://www.clubdetecnologia.net/blog/2020/pruebas-automatizadas-tipos-y-conceptos-erroneos/
+* Colaboradores de Wikipedia. (2022, marzo 7). JUnit. Wikipedia. https://en.wikipedia.org/wiki/JUnit
+* Colaboradores de Wikipedia. (2022, mayo 13). XUnit. Wikipedia. https://en.wikipedia.org/wiki/XUnit
+* GeeksforGeeks. (2020, 2 marzo). Advantages and Disadvantages of Automated Testing. https://www.geeksforgeeks.org/advantages-and-disadvantages-of-automated-testing/
+* Hamilton, T. (2022, 30 abril). What is Test Driven Development (TDD)? Tutorial with Example. Guru99. https://www.guru99.com/test-driven-development.html
+* Ramos, L. (2020, 27 enero). Los beneficios de las pruebas automatizadas. Auditeste. https://auditeste.com.br/es/beneficios-testes-automatizados/
+* Solano, L. (2012, 10 septiembre). What is Coding Dojo. Lorenzo Solano Martinez. https://lorenzosolano.com/what-is-coding-dojo/  
+* Solano, L. (2017, 18 junio). Requirements, Acceptance Criteria, and Scenarios. Lorenzo Solano Martinez. https://lorenzosolano.com/requirements-acceptance-criteria-and/
