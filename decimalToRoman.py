@@ -1,8 +1,8 @@
 # Array with roman number
-arrRomans = ["M", "CM", "D", "CD", "C", "L", "XL", "X", "IX", "V", "IV", "I"]
+arrRomans = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"]
 
 # Array with roman number values in decimal
-arrDecimals = [1000, 900, 500, 400, 100, 50, 40, 10, 9, 5, 4, 1]
+arrDecimals = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
 
 def decimalToRomans(number):
     result = ""
