@@ -18,8 +18,13 @@
 * E2E-3: Given an invalid input, the program asks the user for another input until a valid one is given.
 
 ## Unitarian
-* User input is 5. Application returns 'V'
-* User input is 46. Application returns 'XLVI'
-* User input is 690. Application returns 'DCXC'
-* User input is 3900. Application returns 'MMMCM'
-* User input is greater than 3999. Application returns 'Insert a whole number between 1 and 3999 inclusive. Try Again.'
+### Favorable
+* User's input is 5. Application returns 'V'
+* User's input is 23. Application returns 'XXIII'
+* User's input is 46. Application returns 'XLVI'
+* User's input is 690. Application returns 'DCXC'
+* User's input is 3900. Application returns 'MMMCM'
+
+### Non-favorable
+* User's input is greater than 3999. Application returns 'Insert a whole number between 1 and 3999 inclusive. Try Again.'
+* User's input is a letter. Application returns 'The given number is invalid. Try again.'
